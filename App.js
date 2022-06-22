@@ -16,6 +16,7 @@ import { FocusHistory } from './src/features/FocusHistory';
 
 export default function App() {
   const [currentSubject, setCurrentSubject] = useState();
+  console.log("hi");
   const [history, setHistory] = useState(['temp feature focused']);
   return (
     <SafeAreaView style={styles.container}>
